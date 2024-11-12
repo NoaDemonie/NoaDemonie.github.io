@@ -1,0 +1,56 @@
+header{
+    color: #8D99AE;
+    background-color: #2B2D42;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom:9px;
+}
+header h1,h2{
+    color:#EDF2F4;
+}
+
+body{
+    font-family: 'Helvetica', sans-serif;
+    margin:0;
+    padding:0;
+}
+a{
+    color: #EF233C;
+}
+h1,h2{
+    font-weight: normal;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 80px;
+}
+.education{
+    padding:30px;
+    background-color: #8D99AE;
+    color: #2B2D42;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.education h2{
+    color:black;
+}
+.education h3{
+    color:black;
+    font-weight: bold;
+}
+.education p{
+    color:black;
+    font-weight: normal;
+}
+footer{
+    color: #8D99AE;
+    background-color: #2B2D42;
+    padding: 30px;
+    margin: 10px;
+    margin-top:9px;
+}
+footer h2{
+    color:#8D99AE;
+}

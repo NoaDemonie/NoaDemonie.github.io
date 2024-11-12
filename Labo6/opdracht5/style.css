@@ -1,0 +1,17 @@
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    color:darkblue;
+}
+p{
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color:darkblue;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a:hover{
+    color:purple;
+}

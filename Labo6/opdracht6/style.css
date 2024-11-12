@@ -1,0 +1,22 @@
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+li{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left:30px;
+}
+.checklist .checked{
+    background-image: url("checked.png");
+    background-repeat: no-repeat;
+    list-style-type: none;
+
+
+}
+.checklist .unchecked{
+    background-image: url("unchecked.png");
+    background-repeat: no-repeat;
+    list-style-type: none;
+
+}
