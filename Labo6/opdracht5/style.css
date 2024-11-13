@@ -8,10 +8,15 @@ p{
     font-size: 1em;
     color:darkblue;
 }
-img{
-    max-width: 100%;
-    height: auto;
-}
 a:hover{
     color:purple;
+}
+.metBackgroundImage a{
+    background-image: url('icoontje_hyperlink.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    display: inline-block;
+    height: 20px;
+    max-width: 100%;
 }
