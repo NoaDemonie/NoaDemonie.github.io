@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: auto;
+    padding: 1px;
+    background-color: floralwhite;
+    color:black;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: floralwhite;
+    padding: 20px;
+    margin: 10px auto;
+    border-bottom: 4px solid rosybrown
+}
+
+h2 {
+    color: black;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+ul {
+    padding: 20px;
+    background-color: white;
+    border: 4px solid rosybrown;
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+a {
+    color: rosybrown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+p {
+    padding: 5px;
+    background-color: #ffffff; /* Witte achtergrond */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* dit is het CSS-bestand van de tabel*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: auto;
+    padding: 3px;
+    background-color: floralwhite;
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    margin:auto;
+
+}
+
+table {
+    border: 1px solid rosybrown;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table th {
+    background-color: rosybrown;
+    color: floralwhite;
+    text-transform: uppercase;
+}
+table.vrienden-tabel tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tbody tr td {
+    background-color: floralwhite;
+}
+
+

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.kalender {
+    border-collapse: collapse;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.kalender th, .kalender td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    width: 14.28%; /* Verdeling over 7 kolommen */
+    height: 50px;
+}
+
+.kalender .maand-header th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 15px;
+}
+
+.kalender th {
+    background-color: rgb(170, 170, 200);
+    color: white;
+}
+
+.kalender .weekend {
+    background-color: rgb(255, 220, 220);
+}
+
+.kalender .vrije-dag {
+    background-color: rgb(250, 120, 120);
+    color: white;
+    font-weight: bold;
+}
+
+.kalender .grijs {
+    background-color: rgb(220, 220, 220);
+    color: #aaa;
+}
