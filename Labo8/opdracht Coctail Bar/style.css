@@ -2,8 +2,11 @@ body{
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     width : 95%;
-    text-align: center;
+    text-align: left;
 
+}
+header{
+    text-align: center;
 }
 #elexirs{
     width:25%;
@@ -22,9 +25,7 @@ body{
 #elexirs h2{
     color: #cc668b;
 }
-#elexirs> a hover{
-    color:saddlebrown;
-}
+
 #content{
     float: left;
     width: 70%;
@@ -32,6 +33,7 @@ body{
 h1{
     color: #007e7e;
     font-size:150% ;
+    text-align: center;
 }
 h2{
     color: #007e7e;
@@ -39,8 +41,9 @@ h2{
 
 }
 #guarantee{
+    font-size: 0.9em;
     margin: 30px;
-    padding: 20px;
+    padding: 20px 20px 20px 60px;
     color: #444444;
     background-color: #a7cece;
     border: dashed white;
@@ -49,8 +52,11 @@ h2{
     background-repeat: no-repeat;
 
 }
-footer{
+footer {
     font-size: 0.6em;
+    text-align: center;
+    padding-bottom: 0;
+    margin-top: auto;
 }
 .cursief{
     font-style: italic;
@@ -62,8 +68,6 @@ footer{
     text-align: left;
     width: 70%;
 }
-
-
 a:hover {
     background-color: #7e4731;
 }
