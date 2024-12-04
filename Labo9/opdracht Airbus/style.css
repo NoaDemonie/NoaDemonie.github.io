@@ -74,15 +74,15 @@ main{
     width: 180px;
     height: 180px;
     background-color:#999999;
-    margin: auto;
     padding:10px;
     box-sizing: border-box;
     border: 1px dotted #999999;
 
 }
 #gallery{
-    margin-top: 20px;
-    display: flex;
+    display:flex;
+    margin: 0 20px;
+
 }
 #gallery img{
     width: 100%;
