@@ -4,6 +4,10 @@ body{
     width:95%;
     margin:0 auto;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 main{
     width:75%;
     text-align: left;
@@ -71,25 +75,35 @@ main{
     float:left;
 }
 #gallery .foto{
-    width: 180px;
-    height: 180px;
-    background-color:#999999;
+    background-color: white;
     padding:10px;
     box-sizing: border-box;
     border: 1px dotted #999999;
 
+
 }
 #gallery{
     display:flex;
+    justify-content: center;
     margin: auto;
     flex-wrap: wrap;
+    background-color: #999999;
+    padding:1rem;
+
 
 
 }
 #gallery img{
+    width: 180px;
+    height: 180px;
+}
+.foto{
     width: 100%;
-    height: 100%;
-    display: block;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 30%;
 
 }
 #bottom {
@@ -97,6 +111,8 @@ main{
     color: white;
     line-height: 2em;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 #block1, #block2{
     margin-left: 120px;
