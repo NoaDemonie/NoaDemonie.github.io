@@ -57,7 +57,7 @@ main{
     margin: 0 10px 0 10px;
 }
 #introduction{
-    width: 60%;
+    width: 55%;
     background-color:white;
     color:black;
     text-align: left;
@@ -94,8 +94,8 @@ main{
 
 }
 #gallery img{
-    width: 180px;
-    height: 180px;
+    max-height: 180px;
+
 }
 .foto{
     width: 100%;
