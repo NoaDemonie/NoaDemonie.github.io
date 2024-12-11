@@ -34,6 +34,43 @@ figcaption {
 }
 
 
-@media  {
-	
+@media (max-width: 767px) {
+
+	body {
+		background-color: white;
+	}
+
+	figure {
+		display: block;
+		width: 100%;
+		margin: 0 10px 10px 0;
+
+
+	}
+}
+/* Tablets (768px - 991px): Twee afbeeldingen naast elkaar */
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		background-color: rgba(217, 184, 248, 0.62);
+
+	}
+
+	figure {
+		display: inline-block; /* Zet figuren naast elkaar */
+		width: 45%; /* Twee afbeeldingen per rij */
+		margin-bottom: 5%;
+		margin-left: 15px;
+	}
+}
+@media (min-width: 992px) {
+	body{
+		background-color: #c0fbc0;
+	}
+
+	figure {
+		display: inline-block;
+		width: 30%;
+		margin-bottom:5%;
+		margin-left: 15px;
+	}
 }
