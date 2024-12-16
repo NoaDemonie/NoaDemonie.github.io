@@ -1,4 +1,10 @@
 .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Er zijn drie kolommen */
+    grid-template-rows: repeat(4, auto); /* Vier rijen */
+    gap: 10px; /* Witruimte tussen de blokken */
+    width: auto;
+    margin: auto;
 
 }
 
@@ -11,26 +17,43 @@
 }
 
 .block.block1{
-
+    background-color: #b83367;
+    grid-column: 1 / -1;
+    grid-row: 1;
  }
 .block.block2{
-
+    background-color: #6e66a3;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
 }
 .block.block3{
-
+    background-color: #6e84c7;
+    grid-column: 2 / 3;
+    grid-row: 2;
 }
 .block.block4{
-
+    background-color: #98d5dd;
+    grid-column: 3 / 4;
+    grid-row: 2;
 }
 .block.block5{
-
+    background-color: #c78dd1;
+    grid-column: 2 / 4;
+    grid-row: 3;
 }
 .block.block6{
-
+    background-color: #b83367;
+    grid-column: 1 / 3;
+    grid-row: 4;
 }
 .block.block7{
-
+    background-color: #6e66a3;
+    grid-column: 3/4;
+    grid-row: 4;
 }
 .block.block8{
+    background-color: #6e84c7;
+    grid-column: 1 / -1;
+    grid-row: 5;
 
 }
