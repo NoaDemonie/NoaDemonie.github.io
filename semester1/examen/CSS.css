@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Courier New;
+    color: #292929;
+    background-image: url("./images/chips_challenge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #292929;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    color: white;
+    width:100%;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    width: 100%;
+    text-decoration: underline;
+}
+table {
+    width: 99%;
+    text-align: left;
+    margin: 0.2em 1em 0.2em 1em;
+
+
+}
+th, td {
+    border-bottom: dashed 1px #aaa;
+
+    margin:0.2em 1em 0.2em 1em;
+}
+.bronvermelding{
+    text-align: right;
+    font-size: 60%;
+}
+span{
+    font-weight: bold;
+    font-size: 120%;
+}
+.inhoud {
+    margin: 1rem 2rem 2rem auto;
+    background-color: white;
+    border: 2px solid #292929;
+    border-radius: 15px;
+
+    @media (max-width: 992px){
+        width:80%;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    @media (min-width: 992px){
+        width:90%;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+}
+footer{
+    background-color: #a7a5a5;
+    color: black;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0.25rem auto 0.25rem auto;
+
+    a:hover{
+        color:black;
+    }
+    a{
+        color:black;
+    }
+}
