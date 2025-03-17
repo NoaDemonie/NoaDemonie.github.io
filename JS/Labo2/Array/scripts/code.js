@@ -17,9 +17,9 @@ let setup = () => {
 const voegNaamToe = (leden) => {
 
     let naam = prompt( "voeg een naam toe");
-    // waarde toevoegen
+    // waarde toevoegen = nieuwe waarde wordt toegevoegd als zesde element!!!
     leden.push(naam);
-    for (let i = 0; i < leden.lenght; i++){
+    for (let i = 0; i < leden.length; i++){
         console.log("familielid " + leden[i] );
     }
 }
