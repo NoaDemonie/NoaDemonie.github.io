@@ -8,8 +8,6 @@ const setup = () => {
 }
 
 
-window.addEventListener("load", setup);
-
 
 
 
@@ -19,11 +17,14 @@ window.addEventListener("load", setup);
 
 const update = () => {
     let red = document.getElementById("sldRed").value; //input always value
-    let green = document.getElementById("slGreen").value;
-    let blue = document.getElementById("slBlue").value;
+    let green = document.getElementById("sldGreen").value;
+    let blue = document.getElementById("sldBlue").value;
     document.getElementById("lblRed").innerHTML = red;
     document.getElementById("lblGreen").innerHTML = green;
     document.getElementById("lblBlue").innerHTML = blue;
+
     let swatch = document.getElementById("swatch");
-    swatch.style.backgroundColor= "rgb(" +red+ "," +green+ "," +blue+ ")";
+    swatch.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+
 }
+window.addEventListener("load", setup);
